@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #323232;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  background-color: #b030b0;
+}
+
+.card {
+  background-color: #000;
+}
+
+.list-group-item {
+  background-color: #000;
+}
+
+.btn {
+  background-color: #b030b0;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #772477;
+  border: none;
+}
