@@ -1,18 +1,20 @@
 import React from "react";
-import spinner from "./spinner.gif";
 
 export default () => {
   return (
-    <div>
-      <img
-        src={spinner}
-        alt="Loading..."
-        style={{
-          width: "200px",
-          margin: " 40px auto",
-          display: "block",
-        }}
-      />
+    <div
+      className="spinner-grow"
+      style={{
+        width: "10rem",
+        height: "10rem",
+        color: "#b030b0",
+        position: "absolute",
+        left: "50%",
+        top: "50%",
+        transform: "translate(-50%, -50%)",
+      }}
+    >
+      <span className="sr-only">Loading...</span>
     </div>
   );
 };
