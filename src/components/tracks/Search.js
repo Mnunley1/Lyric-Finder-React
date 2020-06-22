@@ -53,7 +53,10 @@ class Search extends Component {
                     onChange={this.onChange}
                   />
                 </div>
-                <button className="btn btn-lg btn-block mb-5" type="submit">
+                <button
+                  className="btn text-white btn-lg btn-block mb-5"
+                  type="submit"
+                >
                   Get Track Lyrics
                 </button>
               </form>

@@ -14,13 +14,13 @@ html {
 }
 
 body {
-  background: #323232;
+  background: #151515;
   color: white;
   font-family: "Lato", sans-serif;
 }
 
 .navbar {
-  background-color: #b030b0;
+  background-color: #3406db;
 }
 
 .card {
@@ -32,11 +32,11 @@ body {
 }
 
 .btn {
-  background-color: #b030b0;
+  background-color: #3406db;
   border: none;
 }
 
 .btn:hover {
-  background-color: #772477;
+  background-color: #25049c;
   border: none;
 }
